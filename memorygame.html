@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="memorygame.css">
+    <script src="memorygame.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <center>
+      <div class = "parent" style="position:relative">
+          <div id = "black" style="position:absolute; left:100px; top:100px;"> </div>  
+          <div id = "green" class = "button" onclick="userClicksTheButton('green')" style="position:absolute; left:60px; top:60px;"></div>
+          <div id = "red" class = "button" onclick="userClicksTheButton('red')" style="position:absolute; left:240px; top:60px;"></div>
+          <div id = "blue" class = "button" onclick="userClicksTheButton('blue')" style="position:absolute; left:60px; top:240px;"></div>
+          <div id = "yellow" class = "button" onclick="userClicksTheButton('yellow')" style="position:absolute; left:240px; top:240px;"></div>
+          <div id = "indicator" style="position:absolute; left:200px; top:220px;"></div>
+          <div id = "startButton" class="text button" onclick="startGame() " style="position:absolute; left:160px; top:190px;">START</div>
+          <div id = "leftButton" class="text" style="position:absolute; left:125px; top:190px;">00</div>
+          <div id = "rightButton" class="text" style="position:absolute; left:245px; top:190px;">00</div>
+          <div class = "padding" style="position:absolute; left:50px; top:50px;"></div>
+          <div class = "padding" style="position:absolute; left:230px; top:50px;"></div>
+          <div class = "padding" style="position:absolute; left:50px; top:230px;"></div>
+          <div class = "padding" style="position:absolute; left:230px; top:230px;"></div>
+      </div>
+    </center>
+  </body>
+</html>

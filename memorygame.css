@@ -1,0 +1,112 @@
+#black {
+  height: 200px;
+  width: 200px;
+  background-color: #0f0f0f;
+  box-shadow: inset 0px 3px 0px 0px gray;
+  border-color: solid black;
+  border-radius: 50%;
+  z-index: 1;
+}
+.text {
+  text-indent: 1px;
+  letter-spacing: 1px;
+  font-family: 'Orbitron', sans-serif;
+  text-transform: capitalize;
+}
+#green {
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(0deg, rgba(65, 129, 57, 1) 0%, rgba(64, 133, 55, 1) 20%, rgba(119, 231, 104, 1) 100%);
+  box-shadow: inset 0px 2px 0px 0px #666;
+  border-color: solid black;
+  border-radius: 50%;
+  z-index: 3;
+}
+#red {
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(0deg, rgba(144, 35, 35, 1) 0%, rgba(207, 50, 49, 1) 30%, rgba(255, 62, 61, 1) 100%);
+  box-shadow: inset 0px 2px 0px 0px gray;
+  border-color: solid black;
+  border-radius: 50%;
+  z-index: 3;
+}
+#blue {
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(0deg, rgba(28, 70, 129, 1) 0%, rgba(49, 114, 207, 1) 30%, rgba(60, 140, 255, 1) 100%);
+  box-shadow: inset 0px 2px 0px 0px gray;
+  border-color: solid black;
+  border-radius: 50%;
+  z-index: 3;
+}
+#yellow {
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(0deg, rgba(190, 166, 0, 1) 0%, rgba(255, 223, 0, 1) 30%, rgba(255, 238, 119, 1) 100%);
+  box-shadow: inset 0px 2px 0px 0px gray;
+  border-color: solid black;
+  border-radius: 50%;
+  z-index: 3;
+}
+#indicator {
+  height: 8px;
+  width: 8px;
+  background-color: red;
+  border-color: solid black;
+  border-radius: 50%;
+  z-index: 2;
+}
+#startButton {
+  height: 25px;
+  width: 80px;
+  background-color: silver;
+  border-radius: 3px;
+  z-index: 2;
+  box-shadow: inset gray 0 -2px 3px, inset white 0 2px 8px, silver 0 3px 3px -3px;
+}
+#leftButton {
+  height: 25px;
+  width: 30px;
+  background-color: silver;
+  border-radius: 3px;
+  z-index: 2;
+  box-shadow: inset silver 0 -2px 3px, inset gray 0 2px 8px, white 0 3px 3px -3px;
+}
+#rightButton {
+  height: 25px;
+  width: 30px;
+  background-color: silver;
+  border-radius: 3px;
+  z-index: 2;
+  box-shadow: inset silver 0 -2px 3px, inset gray 0 2px 8px, white 0 3px 3px -3px;
+}
+.padding {
+  height: 120px;
+  width: 120px;
+  background-color: black;
+  box-shadow: inset 0px 2px 0px 0px gray;
+  border-color: solid black;
+  border-radius: 50%;
+  z-index: 2;
+}
+.button:active {
+  transform: translateY(1px);
+}
+
+.flashElement {
+  animation: flash 1s;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
